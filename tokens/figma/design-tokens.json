@@ -954,7 +954,7 @@
     }
   },
   "component/accordion": {
-    "utrecht": {
+    "dsn": {
       "accordion": {
         "border-radius": {
           "type": "borderRadius",
@@ -1020,11 +1020,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{dsn.space.block.lg}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{dsn.space.block.lg}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -1120,7 +1120,7 @@
     }
   },
   "component/button": {
-    "utrecht": {
+    "dsn": {
       "button": {
         "primary-action": {
           "hover": {
@@ -1176,10 +1176,6 @@
               "type": "color",
               "value": "{dsn.focus.color}"
             }
-          },
-          "font-weight": {
-            "value": "{dsn.document.strong.font-weight}",
-            "type": "fontWeights"
           },
           "active": {
             "background-color": {
@@ -1251,10 +1247,6 @@
               "value": "{dsn.focus.color}"
             }
           },
-          "font-weight": {
-            "value": "{dsn.document.strong.font-weight}",
-            "type": "fontWeights"
-          },
           "active": {
             "background-color": {
               "type": "color",
@@ -1308,15 +1300,7 @@
           "value": "{dsn.document.font-size}",
           "type": "fontSizes"
         },
-        "font-weight": {
-          "value": "{dsn.document.strong.font-weight}",
-          "type": "fontWeights"
-        },
         "subtle": {
-          "font-weight": {
-            "value": "{dsn.document.strong.font-weight}",
-            "type": "fontWeights"
-          },
           "hover": {
             "background-color": {
               "type": "color",
@@ -1391,11 +1375,11 @@
           "type": "lineHeights"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.sm}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.sm}",
           "type": "spacing"
         },
         "padding-inline-end": {
@@ -1470,11 +1454,33 @@
           "type": "sizing",
           "value": "{dsn.pointer-target.min-size}"
         }
+      },
+      "primary-action": {
+        "font-weight": {
+          "value": "{dsn.document.strong.font-weight}",
+          "type": "fontWeights"
+        }
+      },
+      "secondary-action": {
+        "font-weight": {
+          "value": "{dsn.document.strong.font-weight}",
+          "type": "fontWeights"
+        }
+      },
+      "font-weight": {
+        "value": "{dsn.document.strong.font-weight}",
+        "type": "fontWeights"
+      },
+      "subtle": {
+        "font-weight": {
+          "value": "{dsn.document.strong.font-weight}",
+          "type": "fontWeights"
+        }
       }
     }
   },
   "component/checkbox": {
-    "utrecht": {
+    "dsn": {
       "checkbox": {
         "border-radius": {
           "type": "borderRadius",
@@ -1482,7 +1488,7 @@
         },
         "size": {
           "type": "sizing",
-          "value": "{dsn.size.xs}"
+          "value": "{dsn.size.lg}"
         },
         "icon": {
           "size": {
@@ -1744,7 +1750,7 @@
     }
   },
   "component/checkbox-group": {
-    "todo": {
+    "dsn": {
       "checkbox-group": {
         "padding-block-end": {
           "value": "{dsn.space.block.sm}",
@@ -1762,7 +1768,7 @@
     }
   },
   "component/form-field": {
-    "utrecht": {
+    "dsn": {
       "form-field": {
         "invalid": {
           "border-inline-start-color": {
@@ -1782,7 +1788,7 @@
     }
   },
   "component/form-field-checkbox-option": {
-    "todo": {
+    "dsn": {
       "form-field-checkbox-option": {
         "column-gap": {
           "value": "{dsn.space.column.sm}",
@@ -1792,7 +1798,7 @@
     }
   },
   "component/form-field-description": {
-    "utrecht": {
+    "dsn": {
       "form-field-description": {
         "color": {
           "type": "color",
@@ -1818,7 +1824,7 @@
     }
   },
   "component/form-field-error-message": {
-    "todo": {
+    "dsn": {
       "form-field-error-message": {
         "icon": {
           "size": {
@@ -1826,14 +1832,10 @@
             "value": "{dsn.icon.functional.size}"
           },
           "margin-inline-end": {
-            "value": "{dsn.space.text.md}",
+            "value": "{dsn.space.text.xs}",
             "type": "spacing"
           }
-        }
-      }
-    },
-    "utrecht": {
-      "form-field-error-message": {
+        },
         "color": {
           "type": "color",
           "value": "{dsn.feedback.negative.color}"
@@ -1858,7 +1860,7 @@
     }
   },
   "component/form-field-label": {
-    "todo": {
+    "dsn": {
       "form-field-label": {
         "color": {
           "type": "color",
@@ -1884,7 +1886,7 @@
     }
   },
   "component/form-field-option-label": {
-    "todo": {
+    "dsn": {
       "form-field-option-label": {
         "color": {
           "value": "{dsn.form-control.color}",
@@ -1916,7 +1918,7 @@
     }
   },
   "component/form-field-radio-option": {
-    "todo": {
+    "dsn": {
       "form-field-radio-option": {
         "column-gap": {
           "value": "{dsn.space.column.sm}",
@@ -2076,7 +2078,7 @@
     }
   },
   "component/input-text": {
-    "utrecht": {
+    "dsn": {
       "textbox": {
         "border-radius": {
           "type": "borderRadius",
@@ -2103,11 +2105,11 @@
           "type": "sizing"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.md}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.md}",
           "type": "spacing"
         },
         "padding-inline-end": {
@@ -2230,7 +2232,7 @@
     }
   },
   "component/link": {
-    "utrecht": {
+    "dsn": {
       "link": {
         "line-height": {
           "value": "{dsn.document.line-height}",
@@ -2330,7 +2332,7 @@
     }
   },
   "component/ordered-list": {
-    "utrecht": {
+    "dsn": {
       "ordered-list": {
         "padding-inline-start": {
           "value": "{dsn.space.inline.lg}",
@@ -2370,7 +2372,7 @@
     }
   },
   "component/notification": {
-    "utrecht": {
+    "dsn": {
       "alert": {
         "heading": {
           "font-family": {
@@ -2399,11 +2401,11 @@
           "type": "borderWidth"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.md}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.md}",
           "type": "spacing"
         },
         "padding-inline-end": {
@@ -2436,11 +2438,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{dsn.space.block.md}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{dsn.space.block.md}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -2522,7 +2524,7 @@
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{dsn.space.block.md}",
             "type": "spacing"
           },
           "padding-block-start": {
@@ -2610,7 +2612,7 @@
     }
   },
   "component/radio": {
-    "utrecht": {
+    "dsn": {
       "radio": {
         "active": {
           "border-width": {
@@ -2628,7 +2630,7 @@
         },
         "size": {
           "type": "sizing",
-          "value": "{dsn.size.xs}"
+          "value": "{dsn.size.lg}"
         },
         "dot": {
           "size": {
@@ -2794,7 +2796,7 @@
     }
   },
   "component/radio-group": {
-    "todo": {
+    "dsn": {
       "radio-group": {
         "padding-block-end": {
           "value": "{dsn.space.block.sm}",
@@ -2812,7 +2814,7 @@
     }
   },
   "component/select": {
-    "utrecht": {
+    "dsn": {
       "select": {
         "icon": {
           "size": {
@@ -2901,11 +2903,11 @@
           }
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.md}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.md}",
           "type": "spacing"
         },
         "padding-inline-end": {
@@ -2952,7 +2954,7 @@
     }
   },
   "component/separator": {
-    "utrecht": {
+    "dsn": {
       "separator": {
         "color": {
           "value": "{dsn.line.border-color}",
@@ -2974,7 +2976,7 @@
     }
   },
   "component/table": {
-    "utrecht": {
+    "dsn": {
       "table": {
         "header-cell": {
           "line-height": {
@@ -3026,11 +3028,11 @@
         },
         "cell": {
           "padding-block-end": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{dsn.space.block.md}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{voorbeeld.space.block.snail}",
+            "value": "{dsn.space.block.md}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -3142,18 +3144,18 @@
     }
   },
   "component/textarea": {
-    "utrecht": {
+    "dsn": {
       "textarea": {
         "max-inline-size": {
           "value": "400px",
           "type": "sizing"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.md}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{dsn.space.block.md}",
           "type": "spacing"
         },
         "padding-inline-end": {
@@ -3296,7 +3298,7 @@
     }
   },
   "component/unordered-list": {
-    "utrecht": {
+    "dsn": {
       "unordered-list": {
         "color": {
           "type": "color",
