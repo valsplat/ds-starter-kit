@@ -60,11 +60,11 @@
         },
         "font-family": {
           "primary": {
-            "value": "Source Serif Pro, Tahoma, Verdana, sans-serif",
+            "value": "Assistant, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           },
           "secondary": {
-            "value": "Fira Sans, Tahoma, Verdana, sans-serif",
+            "value": "Assistant, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           }
         }
