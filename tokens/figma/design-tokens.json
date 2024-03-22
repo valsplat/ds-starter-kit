@@ -677,6 +677,10 @@
         "font-weight": {
           "value": "{dsn.typography.font-weight.regular}",
           "type": "fontWeights"
+        },
+        "color": {
+          "value": "{dsn.color.gray.900}",
+          "type": "color"
         }
       },
       "container": {
