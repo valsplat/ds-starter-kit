@@ -675,7 +675,7 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{dsn.typography.font-weight.regular}",
+          "value": "{dsn.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "color": {
