@@ -669,6 +669,16 @@
           "type": "lineHeights"
         }
       },
+      "heading": {
+        "font-family": {
+          "value": "{dsn.typography.font-family.secondary}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{dsn.typography.font-weight.regular}",
+          "type": "fontWeights"
+        }
+      },
       "container": {
         "border-color": {
           "value": "{dsn.color.gray.200}",
@@ -949,12 +959,6 @@
             "value": "{dsn.color.yellow.600}",
             "type": "color"
           }
-        }
-      },
-      "heading": {
-        "color": {
-          "value": "{dsn.color.gray.900}",
-          "type": "color"
         }
       }
     }
