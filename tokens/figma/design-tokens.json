@@ -1943,7 +1943,7 @@
   },
   "component/heading": {
     "dsn": {
-      "heading-1": {
+      "heading-3xl": {
         "color": {
           "type": "color",
           "value": "{dsn.heading.color}"
@@ -1965,21 +1965,7 @@
           "type": "fontSizes"
         }
       },
-      "heading": {
-        "color": {
-          "type": "color",
-          "value": "{dsn.document.color}"
-        },
-        "font-family": {
-          "value": "{dsn.typography.font-family.primary}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "{dsn.typography.font-weight.bold}",
-          "type": "fontWeights"
-        }
-      },
-      "heading-2": {
+      "heading-2xl": {
         "color": {
           "type": "color",
           "value": "{dsn.heading.color}"
@@ -2001,7 +1987,7 @@
           "type": "fontSizes"
         }
       },
-      "heading-3": {
+      "heading-xl": {
         "color": {
           "type": "color",
           "value": "{dsn.heading.color}"
@@ -2023,7 +2009,7 @@
           "type": "fontSizes"
         }
       },
-      "heading-4": {
+      "heading-lg": {
         "color": {
           "type": "color",
           "value": "{dsn.heading.color}"
@@ -2045,7 +2031,7 @@
           "type": "fontSizes"
         }
       },
-      "heading-5": {
+      "heading-md": {
         "color": {
           "type": "color",
           "value": "{dsn.heading.color}"
@@ -2067,7 +2053,7 @@
           "type": "fontSizes"
         }
       },
-      "heading-6": {
+      "heading-sm": {
         "color": {
           "type": "color",
           "value": "{dsn.heading.color}"
