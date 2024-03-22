@@ -950,6 +950,12 @@
             "type": "color"
           }
         }
+      },
+      "heading": {
+        "color": {
+          "value": "{dsn.color.gray.900}",
+          "type": "color"
+        }
       }
     }
   },
