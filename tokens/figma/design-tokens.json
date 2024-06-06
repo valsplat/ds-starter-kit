@@ -1,4 +1,3 @@
-
 {
   "global": {
     "dsn": {
@@ -1027,7 +1026,7 @@
       },
       "brand": {
         "color": {
-          "value": "{dsn.color.yellow.300}",
+          "value": "{dsn.color.red.600}",
           "type": "color",
           "description": "Dé kleur van de organisatie."
         }
