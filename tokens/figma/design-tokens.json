@@ -1565,7 +1565,7 @@
         },
         "content": {
           "padding-block-end": {
-            "value": "{dsn.space.block.xl}",
+            "value": "{dsn.space.block.lg}",
             "type": "spacing"
           },
           "padding-block-start": {
