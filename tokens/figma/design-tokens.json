@@ -1,4 +1,3 @@
-
 {
   "global": {
     "dsn": {
@@ -61,7 +60,7 @@
         },
         "font-family": {
           "primary": {
-            "value": "Assistant, Tahoma, Verdana, sans-serif",
+            "value": "Rubik, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           },
           "secondary": {
@@ -669,7 +668,7 @@
       },
       "heading": {
         "font-family": {
-          "value": "{dsn.typography.font-family.secondary}",
+          "value": "{dsn.typography.font-family.primary}",
           "type": "fontFamilies",
           "description": "Standaard lettertype voor titels."
         },
@@ -1030,6 +1029,11 @@
           "value": "{dsn.color.yellow.300}",
           "type": "color",
           "description": "Dé kleur van de organisatie."
+        },
+        "gradient": {
+          "value": "linear-gradient (45deg, rgba( {dsn.color.blue.500}, 0.4) 0%, rgba( {dsn.color.blue.500} , 0) 100%)",
+          "type": "color",
+          "description": "Dé gradient van de organisatie."
         }
       }
     }
