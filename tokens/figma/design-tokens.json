@@ -386,17 +386,17 @@
         },
         "text": {
           "2xs": {
-            "value": "{dsn.space.base} / 8",
+            "value": "{dsn.space.base} * 0.125",
             "type": "spacing",
             "description": "0.125ch"
           },
           "xs": {
-            "value": "{dsn.space.base} / 4",
+            "value": "{dsn.space.base} * 0.25",
             "type": "spacing",
             "description": "0.25ch"
           },
           "sm": {
-            "value": "{dsn.space.base} / 2",
+            "value": "{dsn.space.base}  * 0.5",
             "type": "spacing",
             "description": "0.5ch"
           },
