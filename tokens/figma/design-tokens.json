@@ -641,7 +641,7 @@
       },
       "font-family": {
         "$type": "fontFamilies",
-        "$value": "Comic Sans MS",
+        "$value": "{dsn.typography.font-family.secondary}",
         "$description": "Standaard lettertype voor tekst."
       },
       "font-size": {
@@ -710,7 +710,7 @@
       "interaction": {
         "color": {
           "$type": "color",
-          "$value": "{dsn.color.green.700}",
+          "$value": "{dsn.color.blue.600}",
           "$description": "Standaard kleur voor interactie."
         },
         "active": {
